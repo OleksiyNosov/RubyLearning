@@ -12,7 +12,7 @@ def fact_normal numb = 0
 	mlt
 end
 
-for i in 0..100 do
+for i in 0..10 do
 	puts fact(i)
 	puts fact_normal(i)
 end
