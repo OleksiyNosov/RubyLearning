@@ -1,9 +1,5 @@
 def fact numb = 0
-	if numb <= 1
-		1
-	else
-		numb * fact(numb - 1)
-	end 
+	numb <= 1 ?	1 : numb * fact(numb - 1)
 end
 
 def fact_normal numb = 0
