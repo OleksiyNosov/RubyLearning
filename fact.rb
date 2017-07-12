@@ -3,7 +3,7 @@ def fact(numb = 0)
 end
 
 def fact_normal numb = 0
-  i, mlt = 0, 1
+  mlt = 1
 
   while numb > 1
     mlt *= numb
