@@ -16,4 +16,12 @@ class Person
 
     years
   end
+
+  def name
+    "#{ @first_name } #{ @last_name }"
+  end
+
+  def head?
+    false
+  end
 end
