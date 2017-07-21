@@ -7,4 +7,13 @@ class Person
     @patronymic = patronymic
     @date_of_birth = date_of_birth
   end
+
+  def ages
+    years = Time.now.year - date_of_birth.year
+    ydays = Time.now.yday - date_of_birth.yday
+    
+    years -= 1 if ydays < 0
+
+    years
+  end
 end
